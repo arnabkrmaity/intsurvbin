@@ -1,0 +1,12 @@
+citHeader("To cite the 'intsurvbin' package in publications use:")
+
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+
+bibentry(bibtype = "Article",
+         title = "Integration of Survival and Binary Data for Variable Selection and Prediction: A Bayesian Approach",
+         author = c(person("Maity", "Arnab Kumar"),
+                    person("Carroll", "Raymond J."),
+                    person("Mallick", "Bani K.")),
+         journal = "Journal of the Royal Statistical Society: Series C (Applied Statistics)",
+         year = "2019")
