@@ -7,14 +7,14 @@
 #'
 #'
 #'@param ct survival response, a \eqn{n*2} matrix with first column as response and second column as right censored indicator,
-#'1 is event time and 0 is right censored.
+#'  1 is event time and 0 is right censored.
 #'@param z binary response, a \eqn{n*1} vector with numeric values 0 or 1.
 #'@param X Matrix of covariates, dimension \eqn{n*p}.
 #'@param burn Number of burn-in MCMC samples. Default is 1000.
 #'@param nmc Number of posterior draws to be saved. Default is 5000.
 #'@param thin Thinning parameter of the chain. Default is 1 (no thinning).
 #'@param alpha Level for the credible intervals. For example, alpha = 0.05 results in
-#'95\% credible intervals.
+#'  95\% credible intervals.
 #'@param Xtest test design matrix.
 #'@param cttest test survival response.
 #'@param ztest test binary response.
