@@ -32,7 +32,7 @@
 #'\item{Beta.bMedian}{Posterior median of \eqn{beta} for binary model, a \eqn{p} by 1 vector.}
 #'\item{SigmaHat}{Posterior mean of variance covariance matrix.}
 #'\item{LambdaHat}{Posterior mean of \eqn{\lambda}, a \eqn{p*1} vector.}
-#'\item{TauHat} = {Posterior mean of \eqn{\tau}, a \eqn{2*1} vector.}
+#'\item{TauHat}{Posterior mean of \eqn{\tau}, a \eqn{2*1} vector.}
 #'\item{Beta.sSamples}{Posterior samples of \eqn{\beta} for survival model.}
 #'\item{Beta.bSamples}{Posterior samples of \eqn{\beta} for binary model.}
 #'\item{LambdaSamples}{Posterior samples of \eqn{\lambda}.}
