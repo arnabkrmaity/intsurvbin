@@ -8,7 +8,7 @@ Authors@R: c(person("Arnab", "Maity", email = "arnab.maity@pfizer.com", role = c
              person("Anirban", "Bhattacharya", email = "anirbanb@stat.tamu.edu", role = "aut"),
              person("Raymond", "Carroll", email = "carroll@stat.tamu.edu", role = "aut"),
              person("Bani", "K. Mallick", email = "bmallick@stat.tamu.edu", role = "aut"))
-Description: : Function to implement the horseshoe shrinkage prior in integrated survival and binary regression.
+Description: Function to implement the horseshoe shrinkage prior in integrated survival and binary regression.
 Depends: R (>= 2.1.1)
 Imports: msm, stats, tmvtnorm, mvtnorm, MHadaptive, mgcv
 License: GPL-3
