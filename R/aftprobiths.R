@@ -29,7 +29,7 @@
 #'\item{LeftCI.b}{The left bounds of the credible intervals for Beta.bHat.}
 #'\item{RightCI.b}{The right bounds of the credible intervals for Beta.bHat.}
 #'\item{Beta.sMedian}{Posterior median of \eqn{beta} for survival model, a \eqn{p} by 1 vector.}
-#'\item{Beta.bMedian}{Posterior median of \eqn{beta} for binary model, a \eqn{p} by 1 vector.}}
+#'\item{Beta.bMedian}{Posterior median of \eqn{beta} for binary model, a \eqn{p} by 1 vector.}
 #'\item{SigmaHat}{Posterior mean of variance covariance matrix.}
 #'\item{LambdaHat}{Posterior mean of \eqn{\lambda}, a \eqn{p*1} vector.}
 #'\item{TauHat} = {Posterior mean of \eqn{\tau}, a \eqn{2*1} vector.}

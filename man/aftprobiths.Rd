@@ -30,6 +30,28 @@ aftprobiths(ct, z, X, burn = 1000, nmc = 5000, thin = 1,
 
 \item{ztest}{test binary response.}
 }
+\value{
+\item{Beta.sHat}{Posterior mean of \eqn{\beta} for survival model, a \eqn{p} by 1 vector.}
+\item{Beta.bHat}{Posterior mean of \eqn{\beta} for binary model, a \eqn{p} by 1 vector.}
+\item{LeftCI.s}{The left bounds of the credible intervals for Beta.sHat.}
+\item{RightCI.s}{The right bounds of the credible intervals for Beta.sHat.}
+\item{LeftCI.b}{The left bounds of the credible intervals for Beta.bHat.}
+\item{RightCI.b}{The right bounds of the credible intervals for Beta.bHat.}
+\item{Beta.sMedian}{Posterior median of \eqn{beta} for survival model, a \eqn{p} by 1 vector.}
+\item{Beta.bMedian}{Posterior median of \eqn{beta} for binary model, a \eqn{p} by 1 vector.}
+\item{SigmaHat}{Posterior mean of variance covariance matrix.}
+\item{LambdaHat}{Posterior mean of \eqn{\lambda}, a \eqn{p*1} vector.}
+\item{TauHat} = {Posterior mean of \eqn{\tau}, a \eqn{2*1} vector.}
+\item{Beta.sSamples}{Posterior samples of \eqn{\beta} for survival model.}
+\item{Beta.bSamples}{Posterior samples of \eqn{\beta} for binary model.}
+\item{LambdaSamples}{Posterior samples of \eqn{\lambda}.}
+\item{TauSamples}{Posterior samples of \eqn{\tau}.}
+\item{SigmaSamples}{Posterior samples of variance covariance matrix.}
+\item{DIC.s}{DIC for survival model.}
+\item{DIC.b}{DIC for binary model.}
+\item{SurvivalHat}{Predictive survival probability.}
+\item{LogTimeHat}{Predictive log time.}
+}
 \description{
 Function to implement the horseshoe shrinkage prior in integrated survival and binary regression
 }
