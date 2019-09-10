@@ -1,14 +1,19 @@
 Package: intsurvbin
 Title: Survival and Binary Data Integration
 Version: 0.0.3
-Date: 2019-07-29
+Date: 2019-09-09
 Authors@R: c(person("Arnab", "Maity", email = "arnab.maity@pfizer.com", role = c("aut", "cre")),
              person("Antik", "Chakraborty", email = "antik.chakraborty@duke.edu", role = "aut"),
              person("Moumita", "Karmakar", email = "mkarmakar@stat.tamu.edu", role = "aut"),
              person("Anirban", "Bhattacharya", email = "anirbanb@stat.tamu.edu", role = "aut"),
              person("Raymond", "Carroll", email = "carroll@stat.tamu.edu", role = "aut"),
              person("Bani", "K. Mallick", email = "bmallick@stat.tamu.edu", role = "aut"))
-Description: Function to implement the horseshoe shrinkage prior in integrated survival and binary regression.
+Description: Function to implement the horseshoe shrinkage prior in 
+            integrated survival and binary regression. Maity, A. K., 
+            Carroll, R. J., and Mallick, B. K. (2019) Integration of 
+            Survival and Binary Data for Variable Selection and 
+            Prediction: A Bayesian Approach, Journal of the Royal 
+            Statistical Society: Series C (Applied Statistics).
 Depends: R (>= 2.1.1)
 Imports: msm, stats, tmvtnorm, mvtnorm, MHadaptive, mgcv
 License: GPL-3
